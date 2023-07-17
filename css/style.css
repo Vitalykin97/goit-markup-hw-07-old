@@ -276,7 +276,8 @@ ol {
 
 .list-goal {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .goal-style {
