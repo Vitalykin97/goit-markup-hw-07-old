@@ -601,6 +601,7 @@ img {
     align-items: center;
 }
 
+/* Basic Style for small devices */
 .container {
     width: 100%;
     padding: 0 15px;
@@ -609,6 +610,15 @@ img {
     max-width: 375px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+/* Tablet screen */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }    
 }
 
 .list {
