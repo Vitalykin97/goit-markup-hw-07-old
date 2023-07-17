@@ -270,7 +270,8 @@ ol {
 
 .goal-item-list {
     background-color: #FFFFFF;
-    width: calc((100% - 48px) / 3);
+    /* width: calc((100% - 48px) / 3); */
+    width: 100%;
 }
 
 .list-goal {
