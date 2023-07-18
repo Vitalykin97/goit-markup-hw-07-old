@@ -108,7 +108,7 @@ ol {
     transform-origin: left;
 }
 
-@media screen and (767.8) {
+@media screen and (min-width: 767.8) {
     .nav-link {
         max-width: 767.8;
         display: none;
@@ -144,7 +144,7 @@ ol {
     margin-left: auto;
 }
 
-@media screen and 767.8 {
+@media screen and (min-width: 767.8) {
     .address-list {
         max-width: 767.8;
         display: none;
@@ -889,8 +889,10 @@ img {
 }
 
 @media screen and (min-width:768) {
-    .form-subscribe{display: flex;}
-    
+    .form-subscribe {
+        display: flex;
+    }
+
 }
 
 .subscribe-input {
