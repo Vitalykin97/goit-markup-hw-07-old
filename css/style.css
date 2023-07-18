@@ -613,8 +613,7 @@ img {
 /* Tablet screen */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 768px;
-        display: none;
+        max-width: 768px;  
     }
 }
 
@@ -622,7 +621,6 @@ img {
 @media only screen and (min-width: 1200px) {
     .container {
         max-width: 1158px;
-        display: none;
     }
 }
 
