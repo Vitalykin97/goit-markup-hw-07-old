@@ -632,7 +632,7 @@ img {
 .icon-list {
     display: none;
     align-items: center;
-    max-width: 1158px;
+    max-width: 428px;
     height: 112px;
     background-color: #f4f4fd;
     border-radius: 4px;
@@ -641,6 +641,12 @@ img {
     justify-content: center;
 }
 
+@media screen and (min-width: 1157.8px) {
+    .icon-list {
+        display: none;
+    }
+    
+}
 
 
 
