@@ -109,11 +109,11 @@ ol {
 }
 
 @media screen and (767.8) {
-    .nav-link{
+    .nav-link {
         max-width: 767.8;
         display: none;
     }
-    
+
 }
 
 .nav-list {
@@ -145,10 +145,10 @@ ol {
 }
 
 @media screen and 767.8 {
-.address-list{ 
-    max-width: 767.8;
-    display: none;
-}    
+    .address-list {
+        max-width: 767.8;
+        display: none;
+    }
 }
 
 
@@ -296,6 +296,13 @@ ol {
 
 .goal-style {
     padding-bottom: 120px;
+}
+
+@media screen and (max-width: 1157.8) {
+    .goal-style {
+        display: none;
+    }
+
 }
 
 /* TEAM */
@@ -629,7 +636,7 @@ img {
 /* Tablet screen */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 768px;  
+        max-width: 768px;
     }
 }
 
@@ -660,7 +667,7 @@ img {
     .icon-list {
         display: none;
     }
-    
+
 }
 
 
@@ -719,12 +726,14 @@ img {
 }
 
 .futer-client {
-    display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 }
 
+
+
 .list-client {
-    width: calc((100% - 120px) / 6);
+    width: calc((100% - 24px) / 2);
     height: 88px;
 }
 
@@ -756,8 +765,14 @@ img {
 }
 
 .footer-container {
-    display: flex;
     align-items: baseline;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-container {
+        display: flex;
+    }
+
 }
 
 .footer-font {
@@ -870,8 +885,12 @@ img {
 }
 
 .form-subscribe {
-    display: flex;
     gap: 24px;
+}
+
+@media screen and (min-width:768) {
+    .form-subscribe{display: flex;}
+    
 }
 
 .subscribe-input {
