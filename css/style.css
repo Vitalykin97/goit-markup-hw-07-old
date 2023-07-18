@@ -355,6 +355,7 @@ ol {
 .ul-list {
     gap: 24px;
     display: flex;
+    flex-direction: column;
 }
 
 .team-name {
