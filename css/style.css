@@ -675,7 +675,7 @@ img {
     justify-content: center;
 }
 
-@media screen and (min-width: 1157.8px) {
+@media screen and (min-width: 767.8px) {
     .icon-list {
         display: none;
     }
