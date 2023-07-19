@@ -752,6 +752,7 @@ img {
 }
 
 .client-item {
+    border: #8e8f99;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
