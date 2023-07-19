@@ -738,15 +738,17 @@ img {
 }
 
 .futer-client {
+    display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 16px;
 }
 
 
 
 .list-client {
-    flex-basis: calc((100% - 16px) / 2);
+    width: calc((100% - 16px) / 2);
     height: 88px;
+
 }
 
 .client-item {
