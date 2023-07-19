@@ -123,11 +123,10 @@ ol {
     text-decoration: none;
 }
 
-@media and (max-width: 767.8px) {
+@media screen and (max-width: 767.8px) {
     .nav-list {
         display: none;
     }
-
 }
 
 
