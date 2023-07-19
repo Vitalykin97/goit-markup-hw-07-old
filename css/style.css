@@ -123,6 +123,13 @@ ol {
     text-decoration: none;
 }
 
+@media and (max-width: 767.8px) {
+    .nav-list {
+        display: none;
+    }
+
+}
+
 
 .contact-link {
     font-family: 'Roboto';
@@ -294,10 +301,10 @@ ol {
 }
 
 @media screen and (max-width: 1157.8px) {
-    .list-goal{
+    .list-goal {
         display: none;
     }
-    
+
 }
 
 .goal-style {
@@ -757,10 +764,10 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-    .client-item{
+    .client-item {
         flex-wrap: wrap;
     }
-    
+
 }
 
 .client-item:hover {
