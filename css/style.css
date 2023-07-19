@@ -144,9 +144,8 @@ ol {
     margin-left: auto;
 }
 
-@media screen and (min-width: 767.8px) {
+@media screen and (max-width: 767.8px) {
     .address-list {
-        max-width: 767.8;
         display: none;
     }
 }
