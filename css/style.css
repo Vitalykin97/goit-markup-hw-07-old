@@ -745,17 +745,17 @@ img {
 
 
 .list-client {
-    width: calc((100% - 24px) / 2);
+    flex-basis: calc((100% - 16px) / 2);
     height: 88px;
 }
 
 .client-item {
     display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  row-gap: 72px;
-  column-gap: 16px;
-  margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 72px;
+    column-gap: 16px;
+    margin: 0 auto;
     color: #8e8f99;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         color 250ms cubic-bezier(0.4, 0, 0.2, 1)
