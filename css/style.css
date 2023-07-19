@@ -294,6 +294,13 @@ ol {
     gap: 24px;
 }
 
+@media screen and (max-width: 1157.8) {
+    .list-goal{
+        display: none;
+    }
+    
+}
+
 .goal-style {
     padding-bottom: 120px;
 }
