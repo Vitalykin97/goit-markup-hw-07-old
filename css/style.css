@@ -678,6 +678,7 @@ img {
 @media screen and (max-width: 767.8px) {
     .icon-list {
         display: none;
+        flex-wrap: wrap;
     }
 
 }
