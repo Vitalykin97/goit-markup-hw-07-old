@@ -250,9 +250,7 @@ ol {
 }
 
 .hero-item-list {
-    background-color: #FFFFFF;
     width: calc((100% - 24px) / 2);
-    width: 100%;
 }
 
 .section-style-hero {
