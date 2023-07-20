@@ -650,7 +650,10 @@ img {
 }
 
 .header-styles {
-    padding: 9px, 7px;
+    /* padding: 9px, 7px; */
+    padding-top: 24px;
+    padding-bottom: 22px;
+    
     display: flex;
     align-items: center;
 }
