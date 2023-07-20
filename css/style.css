@@ -108,12 +108,22 @@ ol {
     transform-origin: left;
 }
 
+/* Mobile Media */
+
+@media screen and (min-width: 427.8px) {
+    .nav-link {
+        max-width: 767.8;
+        display: none;
+    }
+}
+
+/* Tablet Media */
+
 @media screen and (min-width: 767.8px) {
     .nav-link {
         max-width: 767.8;
         display: none;
     }
-
 }
 
 .nav-list {
@@ -630,6 +640,7 @@ img {
 }
 
 .header-styles {
+    padding: 9px, 7px;
     display: flex;
     align-items: center;
 }
@@ -677,8 +688,9 @@ img {
     .icon-list {
         display: none;
     }
+
     .hero-item-lists {
-        display: flex; 
+        display: flex;
         flex-wrap: wrap;
         gap: 72px 24px;
     }
