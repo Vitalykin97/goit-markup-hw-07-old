@@ -649,7 +649,7 @@ img {
         0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.menu-togle-icon {}
+
 
 .header-styles {
     /* padding: 9px, 7px; */
@@ -1173,6 +1173,10 @@ img {
 .menu-toggle:hover,
 .menu-toggle:focus {
     background-color: rgba(0, 0, 0, 0.1);
+}
+
+.menu-toggle-icon {
+    stroke: #2E2F42;
 }
 
 .menu-container {
