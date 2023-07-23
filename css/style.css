@@ -1212,4 +1212,9 @@ img {
     text-transform: capitalize;
 }
 
+.mobile-menu-link:focus,
+.mobile-menu-link:hover {
+    color: var(--ocean, #404BBF);
+}
+
 .mobile-menu {}
