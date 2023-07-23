@@ -1170,15 +1170,19 @@ img {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     padding: 80px, 436px, 40px;
     background: var(--white, #FFF);
-    z-index: 999;
+    z-index: 100;
     display: flex;
     flex-direction: column;
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
+    opacity: 0;
+    pointer-events: 0;
+    overflow: auto;
+    justify-content: space-between;
 }
 
 .menu-container.is-open {
