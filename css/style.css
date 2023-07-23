@@ -1192,6 +1192,7 @@ img {
     position: absolute;
     top: 24px;
     right: 24px;
+    color: #2E2F42;
 }
 
 .mobile-menu {
@@ -1200,7 +1201,7 @@ img {
     list-style: none;
 }
 
-.mobile-menu .link {
+.mobile-menu-link {
     display: block;
     padding: 10px;
     color: #fff;
