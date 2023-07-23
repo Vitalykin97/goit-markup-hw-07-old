@@ -1165,9 +1165,7 @@ img {
 }
 
 @media (max-width: 768px) {
-    .menu-toggle {
-        display: none;
-    }
+    .menu-toggle {}
 }
 
 .menu-toggle:hover,
