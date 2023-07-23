@@ -1164,10 +1164,6 @@ img {
     outline: none;
 }
 
-@media (max-width: 427px) {
-    .menu-toggle {}
-}
-
 .menu-toggle:hover,
 .menu-toggle:focus {
     background-color: rgba(0, 0, 0, 0.1);
