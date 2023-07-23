@@ -1193,9 +1193,8 @@ img {
 
 .menu-container .menu-toggle {
     position: absolute;
-    top: 16px;
-    right: 16px;
-    color: #fff;
+    top: 24px;
+    right: 24px;
 }
 
 .mobile-menu {
@@ -1210,3 +1209,5 @@ img {
     color: #fff;
     text-decoration: none;
 }
+
+.mobile-menu {}
