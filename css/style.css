@@ -1240,11 +1240,6 @@ img {
     }
 }
 
-@media screen and (min-width: 320px; ) {
-    .menu-toggle {
-        display: none;
-    }
-}
 
 .mobile-soc-link {
     display: flex;
