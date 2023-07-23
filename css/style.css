@@ -1149,18 +1149,15 @@ img {
 /* Mobile Menu */
 
 .menu-toggle {
-    min-height: 40px;
-    min-width: 40px;
+    min-height: 28px;
+    min-width: 28px;
     display: flex;
     align-items: center;
     justify-content: center;
 
-    margin: 0;
     padding: 0;
     background-color: transparent;
-    cursor: pointer;
     border: none;
-    border-radius: 50%;
     outline: none;
 }
 
