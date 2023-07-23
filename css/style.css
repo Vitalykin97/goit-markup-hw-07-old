@@ -1177,7 +1177,7 @@ img {
     width: 100vw;
     height: 100vh;
     padding: 32px;
-    background-color: #3f51b5;
+    background: var(--white, #FFF);
     z-index: 999;
 
     transform: translateX(100%);
