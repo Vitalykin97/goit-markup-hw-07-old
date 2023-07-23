@@ -1176,10 +1176,11 @@ img {
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding: 32px;
+    padding: 80px, 436px, 40px;
     background: var(--white, #FFF);
     z-index: 999;
-
+    display: flex;
+    flex-direction: column;
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
 }
@@ -1196,9 +1197,9 @@ img {
 }
 
 .mobile-menu {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+   width: fit-content;
+   margin: 0 auto;
+   margin-bottom: 0 auto;
 }
 
 .mobile-menu-link {
@@ -1217,4 +1218,6 @@ img {
     color: var(--ocean, #404BBF);
 }
 
-.mobile-menu {}
+.mobile-menu-item:not(:last-child) {
+    margin-bottom: 40px;
+}
