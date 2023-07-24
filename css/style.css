@@ -309,12 +309,15 @@ ol {
     text-transform: capitalize;
 }
 
-.mobile-menu-link:current,
-.mobile-menu-link:focus,
-.mobile-menu-link:hover {
+.mobile-menu-link.current,
+.mobile-menu-link.focus,
+.mobile-menu-link.hover {
     color: var(--ocean, #404BBF);
 }
 
+.mobile-menu-item:not(:last-child) {
+    margin-bottom: 40px;
+}
 
 .contact-link {
     font-family: 'Roboto';
