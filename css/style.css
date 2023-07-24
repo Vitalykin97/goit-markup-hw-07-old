@@ -347,6 +347,18 @@ ol {
     }
 }
 
+.mobile-adress-list{
+    margin-bottom: 48px;
+}
+
+.mobile-soc-meregi{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+
 .contact-link {
     font-family: 'Roboto';
     font-style: normal;
@@ -1399,12 +1411,6 @@ img {
     flex-direction: column;
     gap: 40px;
     padding-bottom: 48px;
-}
-
-
-.mobile-soc-meregi {
-    display: flex;
-    gap: 56px;
 }
 
 /* .menu-container .menu-toggle {
