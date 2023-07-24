@@ -202,6 +202,24 @@ ol {
 }
 }
 
+@media screen and (min-width: 1158px) {
+ .header-styles-container{
+    justify-content: space-between;
+ }  
+ .logo-hedaer{
+    margin-right: 76px;
+ } 
+ .address-style{
+    display: flex;
+    margin-left: auto;
+    gap: 40px;
+    align-items: center;
+ }
+ .address-item:first-child {
+    margin-bottom: 0;
+}
+}
+
 .address-list {
     font-style: normal;
     color: #434455;
