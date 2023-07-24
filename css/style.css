@@ -439,6 +439,10 @@ ol {
 
 /* HERO */
 
+.section-style-hero {
+ 
+}
+
 .hero-list {
     font-weight: 500;
     font-size: 20px;
@@ -461,9 +465,6 @@ ol {
     width: calc((100% - 24px) / 2);
 }
 
-.section-style-hero {
-    padding: 120px 0;
-}
 
 .visually-hidden {
     position: absolute;
