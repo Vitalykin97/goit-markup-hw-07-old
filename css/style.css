@@ -406,20 +406,6 @@ ol {
 
 /* BUTTON */
 
-.text-style {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-    max-width: 496px;
-    margin: auto;
-    margin-bottom: 64px;
-}
-
 .section-style {
     background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-logo.jpg);
@@ -449,6 +435,18 @@ ol {
     background-position: center;
     background-size: cover;
     margin: 0 auto;
+}
+
+.text-style {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    max-width: 496px;
+    margin: auto;
+    margin-bottom: 64px;
 }
 
 .hero-list {
