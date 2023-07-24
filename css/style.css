@@ -289,6 +289,33 @@ ol {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
+.mob-close-btn:hover,
+.mob-close-btn:focus {
+    background-color: #404bbf;
+    border: none;
+}
+
+.mob-close-btn:hover .close-icon,
+.mob-close-btn:focus .close-icon {
+    fill: #FFFFFF;
+}
+
+.mobile-menu-link {
+    color: var(--navyblue, #2E2F42);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.mobile-menu-link:current,
+.mobile-menu-link:focus,
+.mobile-menu-link:hover {
+    color: var(--ocean, #404BBF);
+}
+
+
 .contact-link {
     font-family: 'Roboto';
     font-style: normal;
@@ -1308,26 +1335,6 @@ img {
     width: fit-content;
     margin: 0 auto;
     margin-bottom: 0 auto;
-}
-
-.mobile-menu-link {
-    color: var(--navyblue, #2E2F42);
-    font-family: Roboto;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
-}
-
-.mobile-menu-link:focus,
-.mobile-menu-link:hover {
-    color: var(--ocean, #404BBF);
-}
-
-.mobile-menu-item:not(:last-child) {
-    margin-bottom: 40px;
 }
 
 .mobile-soc-link {
