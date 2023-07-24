@@ -440,7 +440,15 @@ ol {
 /* HERO */
 
 .section-style-hero {
- 
+    background-color: #2E2F42;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-mob.jpg);
+    max-width: 428px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
 }
 
 .hero-list {
