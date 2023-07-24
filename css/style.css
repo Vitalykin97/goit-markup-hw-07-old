@@ -319,6 +319,34 @@ ol {
     margin-bottom: 40px;
 }
 
+.mobile-adress-link-tel {
+    color: #4D5AE5;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    font-style: normal;
+    margin-bottom: 40px;
+    display: block;
+}
+
+.mobile-adress-link-emeil {
+    color: #434455;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    display: block;
+}
+
+@media screen and (min-width: 428px) {
+    .mobile-adress-link-tel {
+        font-size: 30px;
+    }
+}
+
 .contact-link {
     font-family: 'Roboto';
     font-style: normal;
@@ -1373,22 +1401,6 @@ img {
     padding-bottom: 48px;
 }
 
-.mobile-adress-link-tel {
-    color: #4D5AE5;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
-}
-
-.mobile-adress-link-emeil {
-    color: #434455;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.4px;
-}
 
 .mobile-soc-meregi {
     display: flex;
