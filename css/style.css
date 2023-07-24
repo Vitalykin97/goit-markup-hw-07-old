@@ -1167,8 +1167,7 @@ img {
 }
 
 .menu-container {
-
-    padding: 80px, 436px, 40px;
+    position: fixed;
     z-index: 100;
     width: 100vw;
     height: 100vh;
