@@ -471,16 +471,90 @@ ol {
     fill: #ffffff;
 }
 
+.features {
+    padding: 96px 0;
+}
 
-.section-style {
-    color: #2e2f42;
-    padding: 188px 0;
+@media screen and (min-width: 1158px) {
+    .features {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    } 
+}
+
+@media screen and (min-width: 768px) {
+    .features-list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+    .features-item {
+        width: calc((100% - 24px) / 2);
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .features-list {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .features-item:not(:last-child) {
+        margin-bottom: 72px;
+    }
+    .features-item-box {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .features-item-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 8px;
+        height: 112px;
+        background-color: #F4F4FD;
+        border-radius: 4px;
+    }
+}
+
+.hero-list {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-list{
+        text-align: left;
+    }
+    .hero-item{
+        font-weight: 400;
+        width: 264px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .hero-list{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
 }
 
 /* HERO */
 
-.section-style-hero {
-    background-color: #2E2F42;
+.hero {
+    background-color: var(--navy-color);
     padding-top: 112px;
     padding-bottom: 112px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-mob.jpg);
@@ -489,6 +563,61 @@ ol {
     background-position: center;
     background-size: cover;
     margin: 0 auto;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-mob-2x.jpg);
+    }
+}
+
+@media screen and (min-width: 428px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/hero-bg-tab.jpg);
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/hero-bg-tab-2x.jpg);
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/hero-bg.jpg);
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/hero-bg-2x.jpg);
+        }
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .hero {
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
 }
 
 .text-style {
@@ -547,26 +676,12 @@ ol {
     background-color: #404BBF;
 }
 
-.hero-list {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2E2F42;
-    margin-bottom: 8px;
-}
-
-.hero-item {
+.features-list{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     margin: auto;
-}
-
-.hero-item-list {
-    width: calc((100% - 24px) / 2);
 }
 
 
@@ -582,11 +697,6 @@ ol {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
-.hero-item-lists {
-    gap: 24px;
-}
-
 
 
 
@@ -624,11 +734,11 @@ ol {
     padding-bottom: 120px;
 }
 
-@media screen and (max-width: 1157.8px) {
+@media screen and (max-width: 1158px) {
     .goal-style {
-        display: none;
+        display: block;
+        padding-bottom: 120px;
     }
-
 }
 
 /* TEAM */
