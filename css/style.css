@@ -1,10 +1,18 @@
 :root {
-    --background-color: #ffffff;
-    --color-button: #FFFFFF;
-    --background-button: #404BBF;
-    --color-primary: #404bbf;
+    --color: #434455;
+    --first-color: #FFFFFF;
+    --light-blue-color: #4D5AE5;
+    --navy-color: #2E2F42;
+    --address-link-color: #434455;
+    --text-color: #434455;
+    --hover-color: #404BBF;
+    --second-color: #F4F4FD;
+    --border: #e7e9fc;
+    --footer-soc-hover: #31d0aa;
+    --customers-color: #8e8f99;
+    --label-color: #8e8f99;
+    --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 p,
 h1,
 h2,
@@ -26,6 +34,21 @@ ol {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #ffffff;
+}
+.burger-svg {
+    stroke: var(--navy-color);
+    transition: stroke var(--transition);
+}
+
+.burger-button:hover .burger-svg,
+.burger-button:hover .burger-svg {
+    stroke: var(--hover-color);
+}
+
+@media screen and (min-width: 768px) {
+    .burger-button {
+        display: none;
+    }
 }
 
 .link {
@@ -156,46 +179,40 @@ ol {
     }
 
     .nav-link {
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #2E2F42;
-        padding: 24px 0;
+        text-transform: capitalize;
+        color: var(--navy-color);
+        padding-top: 24px;
+        padding-bottom: 24px;
         display: block;
-        margin: auto;
-        flex: none;
-        order: 1;
-        flex-grow: 0;
         position: relative;
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        text-decoration: none;
+        transition: color var(--transition);
     }
 
     .nav-link.current:after {
-        content: '';
-        position: absolute;
+        content: "";
         display: block;
-        left: 0;
-        bottom: -1px;
-        height: 4px;
+        position: absolute;
         width: 100%;
         height: 4px;
-        background-color: #404bbf;
+        left: 0;
+        bottom: -1px;
+        background-color: var(--hover-color);
         border-radius: 2px;
     }
-
+    
     .nav-link:hover,
     .nav-link:focus,
     .nav-link.current {
-        color: #404BBF;
+        color: var(--hover-color);
     }
-
+    
     .nav-list {
         display: flex;
-        gap: 40;
+        gap: 40px;
     }
 
     .contact-link {
@@ -318,7 +335,7 @@ ol {
     fill: #FFFFFF;
 }
 
-.mobile-menu-link {
+.mob-soc-list {
     color: var(--navyblue, #2E2F42);
     font-size: 36px;
     font-weight: 700;
@@ -337,7 +354,7 @@ ol {
     margin-bottom: 40px;
 }
 
-.mobile-adress-link-tel {
+.tel {
     color: #4D5AE5;
     font-size: 24px;
     font-weight: 700;
@@ -349,7 +366,7 @@ ol {
     display: block;
 }
 
-.mobile-adress-link-emeil {
+.emeil {
     color: #434455;
     font-size: 20px;
     font-weight: 500;
@@ -360,16 +377,16 @@ ol {
 }
 
 @media screen and (min-width: 428px) {
-    .mobile-adress-link-tel {
+    .emeil {
         font-size: 30px;
     }
 }
 
-.mobile-adress-list {
+.emeil {
     margin-bottom: 48px;
 }
 
-.mobile-soc-meregi {
+.mob-soc-list {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -377,32 +394,31 @@ ol {
 }
 
 @media screen and (min-width: 428px) {
-    .mobile-soc-meregi {
+    .mob-soc-list {
         gap: 56px;
     }
 }
 
-.soc-meregi-item {
+.mob-soc-item {
     width: 40px;
     height: 40px;
 }
 
-.mobile-soc-link {
+.mob-soc-link {
+    width: 100%;
+    height: 100%;
+    background-color: var(--light-blue-color);
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: #4D5AE5;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color var(--transition)
 }
 
-.mobile-soc-link.hover,
-.mobile-soc-link.focus {
-    background-color: #404BBF;
-}
-
+    .mob-soc-link:hover
+    .mob-soc-link:focus {
+        background-color: var(--hover-color);
+    } 
 
 /* BUTTON */
 
